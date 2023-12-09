@@ -7,7 +7,7 @@ Project created at: Sat, 9 Dec
 Udacity - Bike Share
 
 ### Description
-Describe what your project is about and what it does
+This project shows the data analize of 3 diferent csv files contaning data from a bike share app, as part of Udacity Intro to Python Nanodegree.
 
 ### Files used
 Include the files used
