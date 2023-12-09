@@ -10,8 +10,13 @@ Udacity - Bike Share
 This project shows the data analize of 3 diferent csv files contaning data from a bike share app, as part of Udacity Intro to Python Nanodegree.
 
 ### Files used
-Include the files used
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+
+Each containing the app data for the respective cities
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity at: [Udacity.com](https://www.udacity.com/)
+Author: [SudKul](https://github.com/SudKul)
 
