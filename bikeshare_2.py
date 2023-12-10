@@ -39,11 +39,10 @@ def check_prompt(prompt_text: str):
     Returns:
         (bool) answer - User answer as boolean
     """
-
     while True:
         try:
             answer = input(prompt_text)
-            if answer.lower() in ['y', 'yes']:
+            if answer.lower() in ['y', 'yes', 'ye']:
                 return True
             if answer.lower() in ['n', 'no']:
                 return False
