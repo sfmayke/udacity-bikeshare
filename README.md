@@ -20,3 +20,6 @@ Each containing the app data for the respective cities
 Udacity at: [Udacity.com](https://www.udacity.com/)
 Author: [SudKul](https://github.com/SudKul)
 
+### NOTE:
+This project was made on Pycharm community edition, therefore the dependency installation was handled by default
+Make sure you are running the .py file within an environment that already has ( Panda and Numpy ) installed
