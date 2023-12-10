@@ -152,9 +152,9 @@ def time_stats(df, filters: tuple):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    month, day = filters
     # display the most common month
     # this assumes there is only one most common value
+    month, day = filters
     if not month:
         month = df['month'].mode().values[0]
         print(f"Most common month: {calendar.month_name[month]}")
@@ -267,6 +267,7 @@ def main():
         display_data(df)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() in ['n', 'no']:
+            input('\nExiting the program...\n')
             break
 
 
